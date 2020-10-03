@@ -2818,5 +2818,10 @@
     "format": {
       "@id": "dc:format"
     },
+    "P14.1_in_the_role_of": {
+      "@id": "crm:P14.1_in_the_role_of",
+      "@type": "@id",
+      "@container": "@set"
+    }
   }
 }
