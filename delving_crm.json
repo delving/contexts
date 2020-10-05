@@ -12,8 +12,17 @@
     "foaf": "http://xmlns.com/foaf/0.1/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dig": "http://www.ics.forth.gr/isl/CRMdig/",
+
     "id": "@id",
     "type": "@type",
+    "content": {
+      "@id": "crm:P190_has_symbolic_content"
+    },
+    "_label": {
+      "@id": "rdfs:label"
+    },
+
+
     "E1_CRM_Entity": {
       "@id": "crm:E1_CRM_Entity"
     },
@@ -257,7 +266,6 @@
     "E99_Product_Type": {
       "@id": "crm:E99_Product_Type"
     },
-
     "P1_is_identified_by": {
       "@id": "crm:P1_is_identified_by",
       "@type": "@id",
@@ -1434,7 +1442,7 @@
       "@type": "@id",
       "@container": "@set"
     },
-    "temporal_projection": {
+    "P160_has_temporal_projection": {
       "@id": "crm:P160_has_temporal_projection",
       "@type": "@id",
       "@container": "@set"
@@ -1454,7 +1462,7 @@
       "@type": "@id",
       "@container": "@set"
     },
-    "incorporates": {
+    "P165_incorporates": {
       "@id": "crm:P165_incorporates",
       "@type": "@id",
       "@container": "@set"
@@ -1631,9 +1639,6 @@
       "@type": "@id",
       "@container": "@set"
     },
-    "content": {
-      "@id": "crm:P190_has_symbolic_content"
-    },
     "P191_had_duration": {
       "@id": "crm:P191_had_duration",
       "@type": "@id"
@@ -1690,9 +1695,6 @@
       "@type": "@id",
       "@container": "@set"
     },
-    "_label": {
-      "@id": "rdfs:label"
-    },
     "exactMatch": {
       "@id": "skos:exactMatch",
       "@type": "@id",
@@ -1732,6 +1734,6 @@
       "@id": "rdfs:seeAlso",
       "@type": "@id",
       "@container": "@set"
-    },
+    }
   }
 }
