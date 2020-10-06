@@ -15,6 +15,9 @@
     "la": "https://linked.art/ns/terms/",
     "id": "@id",
     "type": "@type",
+    "_tag": {
+      "@id": "dc:subject"
+    },
     "CRMEntity": {
       "@id": "crm:E1_CRM_Entity"
     },
